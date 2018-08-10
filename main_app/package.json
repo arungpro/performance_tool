@@ -1,0 +1,19 @@
+{
+  "name": "main_app",
+  "version": "1.0.0",
+  "description": "Performance tool driving express app, that exposes endpoint like mysql, http, redis and combination of all.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arun G",
+  "license": "ISC",
+  "dependencies": {
+    "appdynamics": "^4.5.2",
+    "express": "^4.16.3",
+    "mysql": "^2.15.0",
+    "nodemon": "^1.17.5",
+    "redis": "^2.8.0",
+    "request": "^2.87.0"
+  }
+}
